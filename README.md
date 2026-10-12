@@ -38,7 +38,7 @@ The project is designed as a compact RF + ML portfolio piece showcasing radar si
 
 | File / Folder | Description |
 |---------------|-------------|
-| `fmcw_radar_ml_project.m` | Main MATLAB script: FMCW radar simulation + ML classification |
+| `Radar_ML_Simulation.m` | Main MATLAB script: FMCW radar simulation + ML classification |
 | `q1.png` | Range–Doppler Map (Range vs Velocity) |
 | `q2.png` | Micro-Doppler-like spectrogram at a chosen range bin |
 | `q3.png` | Feature space scatter plot (Human / Car / Drone) |
@@ -91,13 +91,13 @@ The script prints the **classification accuracy** in the MATLAB command window, 
 
 1. Open MATLAB.  
 2. Add this project folder to the MATLAB path or set it as the **Current Folder**.  
-3. Open `fmcw_radar_ml_project.m`.  
+3. Open `Radar_ML_Simulation.m`.  
 4. Click **Run** (or press `F5`).  
 5. Three figures will be generated:
    - Range–Doppler map  
    - Micro-Doppler spectrogram  
    - Feature space scatter  
-6. Optionally, save the figures into the `figures/` folder as `q1.png`, `q2.png`, `q3.png`.
+6. Optionally, save the figures as `q1.png`, `q2.png`, `q3.png`.
 
 ---
 
