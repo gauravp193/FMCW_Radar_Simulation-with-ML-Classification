@@ -39,10 +39,9 @@ The project is designed as a compact RF + ML portfolio piece showcasing radar si
 | File / Folder | Description |
 |---------------|-------------|
 | `fmcw_radar_ml_project.m` | Main MATLAB script: FMCW radar simulation + ML classification |
-| `figures/` | Folder containing exported plots (q1, q2, q3) |
-| `figures/q1.png` | Range–Doppler Map (Range vs Velocity) |
-| `figures/q2.png` | Micro-Doppler-like spectrogram at a chosen range bin |
-| `figures/q3.png` | Feature space scatter plot (Human / Car / Drone) |
+| `q1.png` | Range–Doppler Map (Range vs Velocity) |
+| `q2.png` | Micro-Doppler-like spectrogram at a chosen range bin |
+| `q3.png` | Feature space scatter plot (Human / Car / Drone) |
 
 ---
 
@@ -64,7 +63,7 @@ The first figure shows the **Range–Doppler Map**, where each bright region cor
 
 | Range–Doppler Map |
 |-------------------|
-| ![Range–Doppler Map](figures/q1.png) |
+| ![Range–Doppler Map](q1.png) |
 
 ---
 
@@ -73,7 +72,7 @@ At the strongest range bin, the script extracts the slow-time signal and compute
 
 | Micro-Doppler Spectrogram |
 |---------------------------|
-| ![Micro-Doppler Spectrogram](figures/q2.png) |
+| ![Micro-Doppler Spectrogram](q2.png) |
 
 ---
 
@@ -82,7 +81,7 @@ The final figure shows the **feature space** (e.g., mean vs max velocity) with d
 
 | Feature Space (Human / Car / Drone) |
 |-------------------------------------|
-| ![Feature Space](figures/q3.png) |
+| ![Feature Space](q3.png) |
 
 The script prints the **classification accuracy** in the MATLAB command window, giving a quick sense of how well the simple SVM model performs on the synthetic dataset.
 
@@ -108,19 +107,3 @@ The script prints the **classification accuracy** in the MATLAB command window, 
 - RF + ML portfolio for automotive / sensing roles  
 - Feature-engineering concepts for Doppler / micro-Doppler analysis  
 - Baseline project for extending to real hardware or more advanced ML models  
-
----
-
-## Future Work
-- Add CFAR detection  
-- Add MIMO virtual array simulation  
-- Add deep-learning based micro-Doppler classifier  
-- Export dataset for Python-based ML
-- 
----
-
-## 👤 Author
-
-**Brian Rono**  
-Electrical & Computer Engineer • RF & Wireless • Embedded Systems • Machine Learning  
-🔗 [GitHub Profile](https://github.com/ronobrian-eng)
